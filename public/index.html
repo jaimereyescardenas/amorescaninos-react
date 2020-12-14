@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="amores caninos - react version"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,10 +24,29 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <style type="text/css">
+      .wrapper {
+        max-width: 750px;
+      }
+      .perfil-wrapper {
+        max-width: 578px;
+      }
+      .form-wrapper, .btn-wrapper {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (max-width: 350px) {
+			.form-wrapper, .btn-wrapper {
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}	
+		}
+    </style>
+    <title>Amores Caninos - Encuentra tu pareja de 4 patas</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>¿No tienes Javascript activado? Pucha qué pena, no vas a poder ver nada :P</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
